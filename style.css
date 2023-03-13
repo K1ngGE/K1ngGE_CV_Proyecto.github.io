@@ -1,0 +1,145 @@
+
+body {
+   
+    background-color: rgb(245, 238, 248);
+    
+     }
+    
+main {
+    display: flex;
+}
+
+h1 {
+    background-color: rgb(155, 89, 182  );
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lato',  sans-serif;
+     }
+
+ h2 {
+        background-color: rgba(72, 61, 82, 0.845);
+        text-align: center;
+        padding: 10px;
+        color: azure;
+        font-family: 'Lato',  sans-serif;
+     }
+
+h3 {
+    background-color: rgba(146, 142, 150, 0.845);
+    width: auto;
+}
+
+form.Panel_Datospersonales {
+    
+    text-align: left;
+    border: 5px;
+    background-color: rgba(72, 61, 82, 0.845);
+    color: azure;
+    font-weight: bold;
+    width: 30%;
+    font-family: 'Lato',  sans-serif;
+    
+    
+}
+
+form.datos_cv {
+   text-align: left;
+   background-color: rgb(225, 209, 231);
+   color: black;
+   width: 70%;
+   
+    }
+
+
+.contenedor {
+    position: relative;
+
+}
+
+
+img.foto_perfil {
+        width: 250px;
+        height: 250px;
+        display: flex;
+        margin-left: 20px;
+        margin-right: 10px;
+        text-align: center;
+    
+    }
+
+.text_datos {
+    font-weight: 50px;
+    color: black;
+}
+
+.progress{
+  margin-left: 20px;
+  height: 25px;
+  width: 80%;
+  border: 1px solid #428bca;
+  border-radius: 5px;
+  background-color: #e6f3fa;
+  margin-bottom: 15px;
+}
+
+.progress_bar1, .progress_bar2 {
+    height: 100%;
+    background: #242628;
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+}
+
+.progress_bar3 {
+    height: 100%;
+    background: #242628;
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.progress_bar4 {
+    height: 100%;
+    background: #242628;
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+    width: 60%;
+}
+
+
+
+.C_informaticos {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.buttons {
+    min-width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #242628;
+    color: azure;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+transform: scale(1.2);
+}
